@@ -1,0 +1,1 @@
+{"ast":null,"code":"import formatTimestamp from './formatTimestamp';\nimport getPages from './getPages';\nexport default {\n  formatTimestamp: formatTimestamp,\n  getPages: getPages\n};","map":null,"metadata":{},"sourceType":"module"}

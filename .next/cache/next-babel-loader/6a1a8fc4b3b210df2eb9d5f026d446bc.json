@@ -1,0 +1,1 @@
+{"ast":null,"code":"var API_URL = process.env.NEXT_PUBLIC_BACKEND_URL;\nexport default API_URL;","map":null,"metadata":{},"sourceType":"module"}

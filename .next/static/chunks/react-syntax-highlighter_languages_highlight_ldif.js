@@ -1,0 +1,14 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["react-syntax-highlighter_languages_highlight_ldif"],{
+
+/***/ "./node_modules/highlight.js/lib/languages/ldif.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/highlight.js/lib/languages/ldif.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("/*\nLanguage: LDIF\nContributors: Jacob Childress <jacobc@gmail.com>\nCategory: enterprise, config\nWebsite: https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format\n*/\nfunction ldif(hljs) {\n  return {\n    name: 'LDIF',\n    contains: [\n      {\n        className: 'attribute',\n        begin: '^dn', end: ': ', excludeEnd: true,\n        starts: {end: '$', relevance: 0},\n        relevance: 10\n      },\n      {\n        className: 'attribute',\n        begin: '^\\\\w', end: ': ', excludeEnd: true,\n        starts: {end: '$', relevance: 0}\n      },\n      {\n        className: 'literal',\n        begin: '^-', end: '$'\n      },\n      hljs.HASH_COMMENT_MODE\n    ]\n  };\n}\n\nmodule.exports = ldif;\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9ub2RlX21vZHVsZXMvaGlnaGxpZ2h0LmpzL2xpYi9sYW5ndWFnZXMvbGRpZi5qcz8xYTA2Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUJBQWlCLHVCQUF1QjtBQUN4QztBQUNBLE9BQU87QUFDUDtBQUNBO0FBQ0E7QUFDQSxpQkFBaUI7QUFDakIsT0FBTztBQUNQO0FBQ0E7QUFDQTtBQUNBLE9BQU87QUFDUDtBQUNBO0FBQ0E7QUFDQTs7QUFFQSIsImZpbGUiOiIuL25vZGVfbW9kdWxlcy9oaWdobGlnaHQuanMvbGliL2xhbmd1YWdlcy9sZGlmLmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLypcbkxhbmd1YWdlOiBMRElGXG5Db250cmlidXRvcnM6IEphY29iIENoaWxkcmVzcyA8amFjb2JjQGdtYWlsLmNvbT5cbkNhdGVnb3J5OiBlbnRlcnByaXNlLCBjb25maWdcbldlYnNpdGU6IGh0dHBzOi8vZW4ud2lraXBlZGlhLm9yZy93aWtpL0xEQVBfRGF0YV9JbnRlcmNoYW5nZV9Gb3JtYXRcbiovXG5mdW5jdGlvbiBsZGlmKGhsanMpIHtcbiAgcmV0dXJuIHtcbiAgICBuYW1lOiAnTERJRicsXG4gICAgY29udGFpbnM6IFtcbiAgICAgIHtcbiAgICAgICAgY2xhc3NOYW1lOiAnYXR0cmlidXRlJyxcbiAgICAgICAgYmVnaW46ICdeZG4nLCBlbmQ6ICc6ICcsIGV4Y2x1ZGVFbmQ6IHRydWUsXG4gICAgICAgIHN0YXJ0czoge2VuZDogJyQnLCByZWxldmFuY2U6IDB9LFxuICAgICAgICByZWxldmFuY2U6IDEwXG4gICAgICB9LFxuICAgICAge1xuICAgICAgICBjbGFzc05hbWU6ICdhdHRyaWJ1dGUnLFxuICAgICAgICBiZWdpbjogJ15cXFxcdycsIGVuZDogJzogJywgZXhjbHVkZUVuZDogdHJ1ZSxcbiAgICAgICAgc3RhcnRzOiB7ZW5kOiAnJCcsIHJlbGV2YW5jZTogMH1cbiAgICAgIH0sXG4gICAgICB7XG4gICAgICAgIGNsYXNzTmFtZTogJ2xpdGVyYWwnLFxuICAgICAgICBiZWdpbjogJ14tJywgZW5kOiAnJCdcbiAgICAgIH0sXG4gICAgICBobGpzLkhBU0hfQ09NTUVOVF9NT0RFXG4gICAgXVxuICB9O1xufVxuXG5tb2R1bGUuZXhwb3J0cyA9IGxkaWY7XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/highlight.js/lib/languages/ldif.js\n");
+
+/***/ })
+
+}]);

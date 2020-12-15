@@ -1,0 +1,1 @@
+{"ast":null,"code":"const API_URL = process.env.BACKEND_URL;\nconsole.log(API_URL, '####################');\nexport default API_URL;","map":null,"metadata":{},"sourceType":"module"}
