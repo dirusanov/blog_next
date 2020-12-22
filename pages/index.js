@@ -59,7 +59,7 @@ const Posts = (props) => {
                     key={post.id}
                     id={post.id}
                     title={post.title}
-                    previewText=<ReactMarkdown renderers={renderers}>{post.text}</ReactMarkdown>
+                    previewText=<ReactMarkdown renderers={renderers}>{post.text.slice(0, 500)}</ReactMarkdown>
                     previewImage={post.image}
                     lastEdit={new Date(post.updated_at).toDateString()}
                 />
