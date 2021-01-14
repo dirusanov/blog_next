@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 import styling from './PostPreview.module.scss';
 
-const PostPreview = ({ id, previewImage, title, lastEdit, previewText, small }) => {
+const PostPreview = ({ slug, previewImage, title, lastEdit, previewText, small }) => {
 
     return (
         <div className={small ? styling.wrapperSmall : styling.wrapper}>
-            <Link href='/post/[id]' as={'/post/' + id}>
+            <Link href='/post/[slug]' as={'/post/' + slug}>
                 <article className={styling.post}>
                     <div
                         className={styling.header}
@@ -18,7 +18,7 @@ const PostPreview = ({ id, previewImage, title, lastEdit, previewText, small }) 
                     {/*{title}*/}
                     <div className={styling.content}>
                         <h2>
-                            <Link href='/post/[id]' as={'/post/' + id}>
+                            <Link href='/post/[slug]' as={'/post/' + slug}>
                                 <a>{title}</a>
                             </Link>
                         </h2>

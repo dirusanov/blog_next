@@ -6,7 +6,7 @@
  * information that does not change such as the name
  * of the blog.
  */
-export default {
+module.exports = {
     caasySDKConfig: {
         siteId: '5f7cc20dc302c4fa0a961f81'
     },
@@ -16,11 +16,11 @@ export default {
     // The default language is used to improve accessibility.
     // It is set on the HTML element. You can change this
     // to the main language of your content.
-    defaultLanguage: 'en',
+    defaultLocale: 'ru',
     // The locale is used for multi language content. This
     // feature hasn't been released yet. Please don't change
     // this until Caasy fully supports multi language content.
-    locale: 'en_US',
+    locales: ['ru', 'en-US'],
     pagination: {
         amountPostsOnPage: 10
     },

@@ -56,8 +56,8 @@ const Posts = (props) => {
         content = (
             (posts || []).map(post => (
                 <PostPreview
-                    key={post.id}
-                    id={post.id}
+                    key={post.slug}
+                    slug={post.slug}
                     title={post.title}
                     previewText=<ReactMarkdown renderers={renderers}>{post.text.slice(0, 500)}</ReactMarkdown>
                     previewImage={post.image}

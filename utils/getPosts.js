@@ -2,14 +2,14 @@ import API_URL from "./http-utils";
 
 
 export async function getAllPostIds() {
-
+    
     try {
         const res = await fetch(API_URL)
         const posts = await res.json()
         return posts.map(post => {
             return {
                 params: {
-                    id: post.id.toString(),
+                    slug: post.slug,
                     all: '/'
                 }
             }
@@ -19,9 +19,9 @@ export async function getAllPostIds() {
     }
 }
 
-export async function getPostData(id) {
+export async function getPostData(slug) {
     try {
-        const res = await fetch(API_URL + id)
+        const res = await fetch(API_URL + slug)
         return await res.json()
     } catch (e) {
         console.log(e)
