@@ -21,7 +21,7 @@ const Main = ({ title, children }) => (
         </Head>
         
         <header>
-            <Nav />
+            <Nav key={title} />
         </header>
         
         <main>

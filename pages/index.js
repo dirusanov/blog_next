@@ -70,6 +70,7 @@ const Posts = (props) => {
     if (props.totalCount >= props.perPage) {  
         paginate = <div className="paginate-container">
                         <ReactPaginate
+                            key={props.currentPage}
                             previousLabel={'previous'}
                             nextLabel={'next'}
                             breakLabel={'...'}

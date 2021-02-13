@@ -767,6 +767,7 @@ const Posts = props => {
     paginate = __jsx("div", {
       className: "paginate-container"
     }, __jsx(react_paginate__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      key: props.currentPage,
       previousLabel: 'previous',
       nextLabel: 'next',
       breakLabel: '...',
@@ -2907,7 +2908,9 @@ var Main_jsx = external_react_default.a.createElement;
 const Main = ({
   title,
   children
-}) => Main_jsx(external_react_default.a.Fragment, null, Main_jsx(head_default.a, null, Main_jsx("title", null, blogConfig_default.a.blogName + ' | ' + (title || blogConfig_default.a.defaultTitle))), Main_jsx("header", null, Main_jsx(nav_Nav, null)), Main_jsx("main", null, children), Main_jsx(footer_Footer, null));
+}) => Main_jsx(external_react_default.a.Fragment, null, Main_jsx(head_default.a, null, Main_jsx("title", null, blogConfig_default.a.blogName + ' | ' + (title || blogConfig_default.a.defaultTitle))), Main_jsx("header", null, Main_jsx(nav_Nav, {
+  key: title
+})), Main_jsx("main", null, children), Main_jsx(footer_Footer, null));
 
 /* harmony default export */ var main_Main = __webpack_exports__["a"] = (Main);
 
