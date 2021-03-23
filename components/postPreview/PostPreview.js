@@ -10,9 +10,9 @@ const PostPreview = ({ slug, previewImage, title, lastEdit, previewText, small }
         <div className={small ? styling.wrapperSmall : styling.wrapper}>
             <Link href='/post/[slug]' as={'/post/' + slug}>
                 <article className={styling.post}>
-                    <div
+                    <img
                         className={styling.header}
-                        style={{ backgroundImage: `url("${previewImage}")` }}
+                        src={previewImage}
                         hidden={!previewImage}
                     />
                     {/*{title}*/}

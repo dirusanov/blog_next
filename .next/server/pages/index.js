@@ -173,11 +173,9 @@ const PostPreview = ({
     as: '/post/' + slug
   }, __jsx("article", {
     className: _PostPreview_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.post
-  }, __jsx("div", {
+  }, __jsx("img", {
     className: _PostPreview_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.header,
-    style: {
-      backgroundImage: `url("${previewImage}")`
-    },
+    src: previewImage,
     hidden: !previewImage
   }), __jsx("div", {
     className: _PostPreview_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.content
