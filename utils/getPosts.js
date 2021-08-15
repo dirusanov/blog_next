@@ -1,9 +1,10 @@
-import API_URL from "./http-utils";
+import {API_URL} from "./http-utils";
 
 
 export async function getAllPostIds() {
     
     try {
+        debugger
         const res = await fetch(API_URL)
         const posts = await res.json()
         return posts.map(post => {

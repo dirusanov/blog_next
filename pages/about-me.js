@@ -1,7 +1,7 @@
 import React from 'react'; 
 
 import AboutMeComponent from "../components/about-me/AboutMe";
-import API_URL from "../utils/http-utils";
+import {API_URL} from "../utils/http-utils";
 
 
 const AboutMe = ( props ) => <AboutMeComponent key={props.id} AboutMeData={props} />;

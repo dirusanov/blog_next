@@ -3,6 +3,7 @@ import ReactMarkdown from 'react-markdown'
 import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter'
 
 import Main from '../layout/main/Main';
+import {API_URL} from "../../utils/http-utils";
 
 import styling from './AboutMe.module.scss';
 
@@ -36,20 +37,6 @@ const AboutMeComponent = ({ AboutMeData }) => {
         </Main>
     );
 };
-
-export async function getStaticProps(context) {
-    const res = await fetch(API_URL + 'about-me')
-    const data = await res.json()
-    if (!data) {
-        return {
-          notFound: true,
-        }
-    }
-
-    return {
-        props: {}, // will be passed to the page component as props
-    }
-}
 
 
 export default AboutMeComponent;

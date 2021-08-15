@@ -93,249 +93,126 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ 0:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./assets/paginate.scss":
+/*!******************************!*\
+  !*** ./assets/paginate.scss ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__("1TCz");
-
+eval("//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL2Fzc2V0cy9wYWdpbmF0ZS5zY3NzLmpzIiwic291cmNlc0NvbnRlbnQiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./assets/paginate.scss\n");
 
 /***/ }),
 
-/***/ "1TCz":
+/***/ "./blogConfig.js":
+/*!***********************!*\
+  !*** ./blogConfig.js ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("/**\n * This files contains all the meta data of your blog. Feel\n * free to change it according to your needs. Please\n * keep in mind, that the actual blog posts are fetched\n * from the Caasy API. This file only contains static\n * information that does not change such as the name\n * of the blog.\n */\nmodule.exports = {\n  blogName: 'Rusanov',\n  defaultTitle: 'BLOG',\n  description: 'This is the blog of Dmitry Rusanov, a lawyer and programmer. I am writing articles about what interests me.',\n  // The default language is used to improve accessibility.\n  // It is set on the HTML element. You can change this\n  // to the main language of your content.\n  defaultLocale: 'ru',\n  // The locale is used for multi language content. This\n  // feature hasn't been released yet. Please don't change\n  // this until Caasy fully supports multi language content.\n  locales: ['ru', 'en-US'],\n  pagination: {\n    amountPostsOnPage: 10\n  },\n  social: {\n    github: 'https://github.com/Random1k11',\n    stackoverflow: 'https://stackoverflow.com/users/12097204/random1k11?tab=profile',\n    // dev: 'https://dev.to/jz222',\n    // twitter: 'https://twitter.com',\n    // linkedin: 'https://www.linkedin.com/in/timo-zimmermann',\n    youtube: 'https://www.youtube.com/channel/UCjl1oFkCqlAXjqqSD_1oVGw?view_as=subscriber' // facebook: 'https://facebook.com',\n    // instagram: 'https://instagram.com'\n\n  }\n};//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9ibG9nQ29uZmlnLmpzPzQzMjIiXSwibmFtZXMiOlsibW9kdWxlIiwiZXhwb3J0cyIsImJsb2dOYW1lIiwiZGVmYXVsdFRpdGxlIiwiZGVzY3JpcHRpb24iLCJkZWZhdWx0TG9jYWxlIiwibG9jYWxlcyIsInBhZ2luYXRpb24iLCJhbW91bnRQb3N0c09uUGFnZSIsInNvY2lhbCIsImdpdGh1YiIsInN0YWNrb3ZlcmZsb3ciLCJ5b3V0dWJlIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0FBLE1BQU0sQ0FBQ0MsT0FBUCxHQUFpQjtBQUNiQyxVQUFRLEVBQUUsU0FERztBQUViQyxjQUFZLEVBQUUsTUFGRDtBQUdiQyxhQUFXLEVBQUUsNkdBSEE7QUFJYjtBQUNBO0FBQ0E7QUFDQUMsZUFBYSxFQUFFLElBUEY7QUFRYjtBQUNBO0FBQ0E7QUFDQUMsU0FBTyxFQUFFLENBQUMsSUFBRCxFQUFPLE9BQVAsQ0FYSTtBQVliQyxZQUFVLEVBQUU7QUFDUkMscUJBQWlCLEVBQUU7QUFEWCxHQVpDO0FBZWJDLFFBQU0sRUFBRTtBQUNKQyxVQUFNLEVBQUUsK0JBREo7QUFFSkMsaUJBQWEsRUFBRSxpRUFGWDtBQUdKO0FBQ0E7QUFDQTtBQUNBQyxXQUFPLEVBQUUsNkVBTkwsQ0FPSjtBQUNBOztBQVJJO0FBZkssQ0FBakIiLCJmaWxlIjoiLi9ibG9nQ29uZmlnLmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBUaGlzIGZpbGVzIGNvbnRhaW5zIGFsbCB0aGUgbWV0YSBkYXRhIG9mIHlvdXIgYmxvZy4gRmVlbFxuICogZnJlZSB0byBjaGFuZ2UgaXQgYWNjb3JkaW5nIHRvIHlvdXIgbmVlZHMuIFBsZWFzZVxuICoga2VlcCBpbiBtaW5kLCB0aGF0IHRoZSBhY3R1YWwgYmxvZyBwb3N0cyBhcmUgZmV0Y2hlZFxuICogZnJvbSB0aGUgQ2Fhc3kgQVBJLiBUaGlzIGZpbGUgb25seSBjb250YWlucyBzdGF0aWNcbiAqIGluZm9ybWF0aW9uIHRoYXQgZG9lcyBub3QgY2hhbmdlIHN1Y2ggYXMgdGhlIG5hbWVcbiAqIG9mIHRoZSBibG9nLlxuICovXG5tb2R1bGUuZXhwb3J0cyA9IHtcbiAgICBibG9nTmFtZTogJ1J1c2Fub3YnLFxuICAgIGRlZmF1bHRUaXRsZTogJ0JMT0cnLFxuICAgIGRlc2NyaXB0aW9uOiAnVGhpcyBpcyB0aGUgYmxvZyBvZiBEbWl0cnkgUnVzYW5vdiwgYSBsYXd5ZXIgYW5kIHByb2dyYW1tZXIuIEkgYW0gd3JpdGluZyBhcnRpY2xlcyBhYm91dCB3aGF0IGludGVyZXN0cyBtZS4nLFxuICAgIC8vIFRoZSBkZWZhdWx0IGxhbmd1YWdlIGlzIHVzZWQgdG8gaW1wcm92ZSBhY2Nlc3NpYmlsaXR5LlxuICAgIC8vIEl0IGlzIHNldCBvbiB0aGUgSFRNTCBlbGVtZW50LiBZb3UgY2FuIGNoYW5nZSB0aGlzXG4gICAgLy8gdG8gdGhlIG1haW4gbGFuZ3VhZ2Ugb2YgeW91ciBjb250ZW50LlxuICAgIGRlZmF1bHRMb2NhbGU6ICdydScsXG4gICAgLy8gVGhlIGxvY2FsZSBpcyB1c2VkIGZvciBtdWx0aSBsYW5ndWFnZSBjb250ZW50LiBUaGlzXG4gICAgLy8gZmVhdHVyZSBoYXNuJ3QgYmVlbiByZWxlYXNlZCB5ZXQuIFBsZWFzZSBkb24ndCBjaGFuZ2VcbiAgICAvLyB0aGlzIHVudGlsIENhYXN5IGZ1bGx5IHN1cHBvcnRzIG11bHRpIGxhbmd1YWdlIGNvbnRlbnQuXG4gICAgbG9jYWxlczogWydydScsICdlbi1VUyddLFxuICAgIHBhZ2luYXRpb246IHtcbiAgICAgICAgYW1vdW50UG9zdHNPblBhZ2U6IDEwXG4gICAgfSxcbiAgICBzb2NpYWw6IHtcbiAgICAgICAgZ2l0aHViOiAnaHR0cHM6Ly9naXRodWIuY29tL1JhbmRvbTFrMTEnLFxuICAgICAgICBzdGFja292ZXJmbG93OiAnaHR0cHM6Ly9zdGFja292ZXJmbG93LmNvbS91c2Vycy8xMjA5NzIwNC9yYW5kb20xazExP3RhYj1wcm9maWxlJyxcbiAgICAgICAgLy8gZGV2OiAnaHR0cHM6Ly9kZXYudG8vanoyMjInLFxuICAgICAgICAvLyB0d2l0dGVyOiAnaHR0cHM6Ly90d2l0dGVyLmNvbScsXG4gICAgICAgIC8vIGxpbmtlZGluOiAnaHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2luL3RpbW8temltbWVybWFubicsXG4gICAgICAgIHlvdXR1YmU6ICdodHRwczovL3d3dy55b3V0dWJlLmNvbS9jaGFubmVsL1VDamwxb0ZrQ3FsQVhqcXFTRF8xb1ZHdz92aWV3X2FzPXN1YnNjcmliZXInLFxuICAgICAgICAvLyBmYWNlYm9vazogJ2h0dHBzOi8vZmFjZWJvb2suY29tJyxcbiAgICAgICAgLy8gaW5zdGFncmFtOiAnaHR0cHM6Ly9pbnN0YWdyYW0uY29tJ1xuICAgIH0sXG59XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./blogConfig.js\n");
+
+/***/ }),
+
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("xnum");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("GvLQ");
-/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _caasy_sdk_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("A1+9");
-/* harmony import */ var _caasy_sdk_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_caasy_sdk_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("4Q3z");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _blogConfig__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("QyJS");
-/* harmony import */ var _blogConfig__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_blogConfig__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _stylesheets_global_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("TQWz");
-/* harmony import */ var _stylesheets_global_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_stylesheets_global_css__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _stylesheets_nprogress_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("3iY6");
-/* harmony import */ var _stylesheets_nprogress_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_stylesheets_nprogress_css__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _stylesheets_nightOwl_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("sFTw");
-/* harmony import */ var _stylesheets_nightOwl_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_stylesheets_nightOwl_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _assets_paginate_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("iL3X");
-/* harmony import */ var _assets_paginate_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_paginate_scss__WEBPACK_IMPORTED_MODULE_9__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
- // Blog config
-
- // Import style sheets
-
-
-
-
- // Initialize the Caasy SDK. Update the Caasy
-// site ID in "blogConfig.js" in the root folder.
-
-_caasy_sdk_js__WEBPACK_IMPORTED_MODULE_3___default.a.init(_blogConfig__WEBPACK_IMPORTED_MODULE_5___default.a.caasySDKConfig); // Loading indicator
-
-next_router__WEBPACK_IMPORTED_MODULE_4___default.a.events.on('routeChangeStart', nprogress__WEBPACK_IMPORTED_MODULE_2___default.a.start);
-next_router__WEBPACK_IMPORTED_MODULE_4___default.a.events.on('routeChangeComplete', nprogress__WEBPACK_IMPORTED_MODULE_2___default.a.done);
-next_router__WEBPACK_IMPORTED_MODULE_4___default.a.events.on('routeChangeError', nprogress__WEBPACK_IMPORTED_MODULE_2___default.a.done);
-/**
- * The component ensures that every site has title and meta element
- * in the header. Additional meta tags can be added below. Make sure
- * to add them als children of the Head component.
- * @param Component {jsx} the component that is currently display
- * @param pageProps {object} the currently active element's props
- * @returns {*}
- * @constructor
- */
-
-const App = ({
-  Component,
-  pageProps
-}) => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, __jsx("title", {
-  key: "title"
-}, _blogConfig__WEBPACK_IMPORTED_MODULE_5___default.a.blogName || ''), __jsx("meta", {
-  key: "description",
-  name: "description",
-  content: _blogConfig__WEBPACK_IMPORTED_MODULE_5___default.a.description
-}), __jsx("script", {
-  async: true,
-  src: `https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`
-}), __jsx("script", {
-  dangerouslySetInnerHTML: {
-    __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${process.env.GA_TRACKING_ID}');
-          `
-  }
-}), __jsx("script", {
-  dangerouslySetInnerHTML: {
-    __html: `
-            <!-- Yandex.Metrika counter -->
-            <script type="text/javascript" >
-               (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-               m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-               (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-               ym(74360284, "init", {
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    ecommerce:"dataLayer"
-               });
-            </script>
-            <noscript><div><img src="https://mc.yandex.ru/watch/74360284" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-            <!-- /Yandex.Metrika counter -->
-          `
-  }
-})), __jsx(Component, pageProps));
-
-/* harmony default export */ __webpack_exports__["default"] = (App);
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! nprogress */ \"nprogress\");\n/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _blogConfig__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../blogConfig */ \"./blogConfig.js\");\n/* harmony import */ var _blogConfig__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_blogConfig__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _stylesheets_global_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../stylesheets/global.css */ \"./stylesheets/global.css\");\n/* harmony import */ var _stylesheets_global_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_stylesheets_global_css__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _stylesheets_nprogress_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../stylesheets/nprogress.css */ \"./stylesheets/nprogress.css\");\n/* harmony import */ var _stylesheets_nprogress_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_stylesheets_nprogress_css__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _stylesheets_nightOwl_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../stylesheets/nightOwl.css */ \"./stylesheets/nightOwl.css\");\n/* harmony import */ var _stylesheets_nightOwl_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_stylesheets_nightOwl_css__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _assets_paginate_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/paginate.scss */ \"./assets/paginate.scss\");\n/* harmony import */ var _assets_paginate_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_paginate_scss__WEBPACK_IMPORTED_MODULE_8__);\nvar _jsxFileName = \"/home/dima/Desktop/chat-bot/next_js_blog/pages/_app.js\";\nvar __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;\n\nfunction _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\n\n\n\n // Blog config\n\n // Import style sheets\n\n\n\n\n // Loading indicator\n\nnext_router__WEBPACK_IMPORTED_MODULE_3___default.a.events.on('routeChangeStart', nprogress__WEBPACK_IMPORTED_MODULE_2___default.a.start);\nnext_router__WEBPACK_IMPORTED_MODULE_3___default.a.events.on('routeChangeComplete', nprogress__WEBPACK_IMPORTED_MODULE_2___default.a.done);\nnext_router__WEBPACK_IMPORTED_MODULE_3___default.a.events.on('routeChangeError', nprogress__WEBPACK_IMPORTED_MODULE_2___default.a.done);\n/**\n * The component ensures that every site has title and meta element\n * in the header. Additional meta tags can be added below. Make sure\n * to add them als children of the Head component.\n * @param Component {jsx} the component that is currently display\n * @param pageProps {object} the currently active element's props\n * @returns {*}\n * @constructor\n */\n\nconst App = ({\n  Component,\n  pageProps\n}) => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {\n  __self: undefined,\n  __source: {\n    fileName: _jsxFileName,\n    lineNumber: 33,\n    columnNumber: 9\n  }\n}, __jsx(\"title\", {\n  key: \"title\",\n  __self: undefined,\n  __source: {\n    fileName: _jsxFileName,\n    lineNumber: 34,\n    columnNumber: 13\n  }\n}, _blogConfig__WEBPACK_IMPORTED_MODULE_4___default.a.blogName || ''), __jsx(\"meta\", {\n  key: \"description\",\n  name: \"description\",\n  content: _blogConfig__WEBPACK_IMPORTED_MODULE_4___default.a.description,\n  __self: undefined,\n  __source: {\n    fileName: _jsxFileName,\n    lineNumber: 35,\n    columnNumber: 13\n  }\n}), __jsx(\"script\", {\n  async: true,\n  src: `https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`,\n  __self: undefined,\n  __source: {\n    fileName: _jsxFileName,\n    lineNumber: 36,\n    columnNumber: 10\n  }\n}), __jsx(\"script\", {\n  dangerouslySetInnerHTML: {\n    __html: `\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', '${process.env.GA_TRACKING_ID}');\n          `\n  },\n  __self: undefined,\n  __source: {\n    fileName: _jsxFileName,\n    lineNumber: 40,\n    columnNumber: 10\n  }\n}), __jsx(\"script\", {\n  dangerouslySetInnerHTML: {\n    __html: `\n            <!-- Yandex.Metrika counter -->\n            <script type=\"text/javascript\" >\n               (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};\n               m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})\n               (window, document, \"script\", \"https://mc.yandex.ru/metrika/tag.js\", \"ym\");\n\n               ym(74360284, \"init\", {\n                    clickmap:true,\n                    trackLinks:true,\n                    accurateTrackBounce:true,\n                    ecommerce:\"dataLayer\"\n               });\n            </script>\n            <noscript><div><img src=\"https://mc.yandex.ru/watch/74360284\" style=\"position:absolute; left:-9999px;\" alt=\"\" /></div></noscript>\n            <!-- /Yandex.Metrika counter -->\n          `\n  },\n  __self: undefined,\n  __source: {\n    fileName: _jsxFileName,\n    lineNumber: 50,\n    columnNumber: 9\n  }\n})), __jsx(Component, _extends({}, pageProps, {\n  __self: undefined,\n  __source: {\n    fileName: _jsxFileName,\n    lineNumber: 72,\n    columnNumber: 9\n  }\n})));\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9fYXBwLmpzP2Q1MzAiXSwibmFtZXMiOlsiUm91dGVyIiwiZXZlbnRzIiwib24iLCJOUHJvZ3Jlc3MiLCJzdGFydCIsImRvbmUiLCJBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiLCJibG9nQ29uZmlnIiwiYmxvZ05hbWUiLCJkZXNjcmlwdGlvbiIsInByb2Nlc3MiLCJlbnYiLCJHQV9UUkFDS0lOR19JRCIsIl9faHRtbCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFDQTtBQUNBO0NBR0E7O0NBR0E7O0FBQ0E7QUFDQTtBQUNBO0NBSUE7O0FBQ0FBLGtEQUFNLENBQUNDLE1BQVAsQ0FBY0MsRUFBZCxDQUFpQixrQkFBakIsRUFBcUNDLGdEQUFTLENBQUNDLEtBQS9DO0FBQ0FKLGtEQUFNLENBQUNDLE1BQVAsQ0FBY0MsRUFBZCxDQUFpQixxQkFBakIsRUFBd0NDLGdEQUFTLENBQUNFLElBQWxEO0FBQ0FMLGtEQUFNLENBQUNDLE1BQVAsQ0FBY0MsRUFBZCxDQUFpQixrQkFBakIsRUFBcUNDLGdEQUFTLENBQUNFLElBQS9DO0FBR0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUNBLE1BQU1DLEdBQUcsR0FBRyxDQUFDO0FBQUVDLFdBQUY7QUFBYUM7QUFBYixDQUFELEtBQ1IsbUVBQ0ksTUFBQyxnREFBRDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEdBQ0k7QUFBTyxLQUFHLEVBQUMsT0FBWDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEdBQW9CQyxrREFBVSxDQUFDQyxRQUFYLElBQXVCLEVBQTNDLENBREosRUFFSTtBQUFNLEtBQUcsRUFBQyxhQUFWO0FBQXdCLE1BQUksRUFBQyxhQUE3QjtBQUEyQyxTQUFPLEVBQUVELGtEQUFVLENBQUNFLFdBQS9EO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsRUFGSixFQUdDO0FBQ0csT0FBSyxNQURSO0FBRUcsS0FBRyxFQUFHLCtDQUE4Q0MsT0FBTyxDQUFDQyxHQUFSLENBQVlDLGNBQWUsRUFGbEY7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxFQUhELEVBT0M7QUFDRyx5QkFBdUIsRUFBRTtBQUN2QkMsVUFBTSxFQUFHO0FBQ3ZCO0FBQ0E7QUFDQTtBQUNBLDhCQUE4QkgsT0FBTyxDQUFDQyxHQUFSLENBQVlDLGNBQWU7QUFDekQ7QUFOcUMsR0FENUI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxFQVBELEVBaUJBO0FBQ0kseUJBQXVCLEVBQUU7QUFDdkJDLFVBQU0sRUFBRztBQUN2QjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQWpCcUMsR0FEN0I7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxFQWpCQSxDQURKLEVBd0NJLE1BQUMsU0FBRCxlQUFlUCxTQUFmO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsR0F4Q0osQ0FESjs7QUE2Q2VGLGtFQUFmIiwiZmlsZSI6Ii4vcGFnZXMvX2FwcC5qcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnO1xuaW1wb3J0IE5Qcm9ncmVzcyBmcm9tICducHJvZ3Jlc3MnO1xuaW1wb3J0IFJvdXRlciBmcm9tICduZXh0L3JvdXRlcic7XG5cbi8vIEJsb2cgY29uZmlnXG5pbXBvcnQgYmxvZ0NvbmZpZyBmcm9tICcuLi9ibG9nQ29uZmlnJztcblxuLy8gSW1wb3J0IHN0eWxlIHNoZWV0c1xuaW1wb3J0ICcuLi9zdHlsZXNoZWV0cy9nbG9iYWwuY3NzJztcbmltcG9ydCAnLi4vc3R5bGVzaGVldHMvbnByb2dyZXNzLmNzcyc7XG5pbXBvcnQgJy4uL3N0eWxlc2hlZXRzL25pZ2h0T3dsLmNzcyc7XG5pbXBvcnQgJy4uL2Fzc2V0cy9wYWdpbmF0ZS5zY3NzJ1xuXG5cbi8vIExvYWRpbmcgaW5kaWNhdG9yXG5Sb3V0ZXIuZXZlbnRzLm9uKCdyb3V0ZUNoYW5nZVN0YXJ0JywgTlByb2dyZXNzLnN0YXJ0KTtcblJvdXRlci5ldmVudHMub24oJ3JvdXRlQ2hhbmdlQ29tcGxldGUnLCBOUHJvZ3Jlc3MuZG9uZSk7XG5Sb3V0ZXIuZXZlbnRzLm9uKCdyb3V0ZUNoYW5nZUVycm9yJywgTlByb2dyZXNzLmRvbmUpO1xuXG5cbi8qKlxuICogVGhlIGNvbXBvbmVudCBlbnN1cmVzIHRoYXQgZXZlcnkgc2l0ZSBoYXMgdGl0bGUgYW5kIG1ldGEgZWxlbWVudFxuICogaW4gdGhlIGhlYWRlci4gQWRkaXRpb25hbCBtZXRhIHRhZ3MgY2FuIGJlIGFkZGVkIGJlbG93LiBNYWtlIHN1cmVcbiAqIHRvIGFkZCB0aGVtIGFscyBjaGlsZHJlbiBvZiB0aGUgSGVhZCBjb21wb25lbnQuXG4gKiBAcGFyYW0gQ29tcG9uZW50IHtqc3h9IHRoZSBjb21wb25lbnQgdGhhdCBpcyBjdXJyZW50bHkgZGlzcGxheVxuICogQHBhcmFtIHBhZ2VQcm9wcyB7b2JqZWN0fSB0aGUgY3VycmVudGx5IGFjdGl2ZSBlbGVtZW50J3MgcHJvcHNcbiAqIEByZXR1cm5zIHsqfVxuICogQGNvbnN0cnVjdG9yXG4gKi9cbmNvbnN0IEFwcCA9ICh7IENvbXBvbmVudCwgcGFnZVByb3BzIH0pID0+IChcbiAgICA8PlxuICAgICAgICA8SGVhZD5cbiAgICAgICAgICAgIDx0aXRsZSBrZXk9J3RpdGxlJz57YmxvZ0NvbmZpZy5ibG9nTmFtZSB8fCAnJ308L3RpdGxlPlxuICAgICAgICAgICAgPG1ldGEga2V5PSdkZXNjcmlwdGlvbicgbmFtZT0nZGVzY3JpcHRpb24nIGNvbnRlbnQ9e2Jsb2dDb25maWcuZGVzY3JpcHRpb259IC8+XG4gICAgICAgICA8c2NyaXB0XG4gICAgICAgICAgICBhc3luY1xuICAgICAgICAgICAgc3JjPXtgaHR0cHM6Ly93d3cuZ29vZ2xldGFnbWFuYWdlci5jb20vZ3RhZy9qcz9pZD0ke3Byb2Nlc3MuZW52LkdBX1RSQUNLSU5HX0lEfWB9XG4gICAgICAgICAvPlxuICAgICAgICAgPHNjcmlwdFxuICAgICAgICAgICAgZGFuZ2Vyb3VzbHlTZXRJbm5lckhUTUw9e3tcbiAgICAgICAgICAgICAgX19odG1sOiBgXG4gICAgICAgICAgICB3aW5kb3cuZGF0YUxheWVyID0gd2luZG93LmRhdGFMYXllciB8fCBbXTtcbiAgICAgICAgICAgIGZ1bmN0aW9uIGd0YWcoKXtkYXRhTGF5ZXIucHVzaChhcmd1bWVudHMpO31cbiAgICAgICAgICAgIGd0YWcoJ2pzJywgbmV3IERhdGUoKSk7XG4gICAgICAgICAgICBndGFnKCdjb25maWcnLCAnJHtwcm9jZXNzLmVudi5HQV9UUkFDS0lOR19JRH0nKTtcbiAgICAgICAgICBgXG4gICAgICAgICAgICB9fVxuICAgICAgICAvPlxuICAgICAgICA8c2NyaXB0XG4gICAgICAgICAgICBkYW5nZXJvdXNseVNldElubmVySFRNTD17e1xuICAgICAgICAgICAgICBfX2h0bWw6IGBcbiAgICAgICAgICAgIDwhLS0gWWFuZGV4Lk1ldHJpa2EgY291bnRlciAtLT5cbiAgICAgICAgICAgIDxzY3JpcHQgdHlwZT1cInRleHQvamF2YXNjcmlwdFwiID5cbiAgICAgICAgICAgICAgIChmdW5jdGlvbihtLGUsdCxyLGksayxhKXttW2ldPW1baV18fGZ1bmN0aW9uKCl7KG1baV0uYT1tW2ldLmF8fFtdKS5wdXNoKGFyZ3VtZW50cyl9O1xuICAgICAgICAgICAgICAgbVtpXS5sPTEqbmV3IERhdGUoKTtrPWUuY3JlYXRlRWxlbWVudCh0KSxhPWUuZ2V0RWxlbWVudHNCeVRhZ05hbWUodClbMF0say5hc3luYz0xLGsuc3JjPXIsYS5wYXJlbnROb2RlLmluc2VydEJlZm9yZShrLGEpfSlcbiAgICAgICAgICAgICAgICh3aW5kb3csIGRvY3VtZW50LCBcInNjcmlwdFwiLCBcImh0dHBzOi8vbWMueWFuZGV4LnJ1L21ldHJpa2EvdGFnLmpzXCIsIFwieW1cIik7XG5cbiAgICAgICAgICAgICAgIHltKDc0MzYwMjg0LCBcImluaXRcIiwge1xuICAgICAgICAgICAgICAgICAgICBjbGlja21hcDp0cnVlLFxuICAgICAgICAgICAgICAgICAgICB0cmFja0xpbmtzOnRydWUsXG4gICAgICAgICAgICAgICAgICAgIGFjY3VyYXRlVHJhY2tCb3VuY2U6dHJ1ZSxcbiAgICAgICAgICAgICAgICAgICAgZWNvbW1lcmNlOlwiZGF0YUxheWVyXCJcbiAgICAgICAgICAgICAgIH0pO1xuICAgICAgICAgICAgPC9zY3JpcHQ+XG4gICAgICAgICAgICA8bm9zY3JpcHQ+PGRpdj48aW1nIHNyYz1cImh0dHBzOi8vbWMueWFuZGV4LnJ1L3dhdGNoLzc0MzYwMjg0XCIgc3R5bGU9XCJwb3NpdGlvbjphYnNvbHV0ZTsgbGVmdDotOTk5OXB4O1wiIGFsdD1cIlwiIC8+PC9kaXY+PC9ub3NjcmlwdD5cbiAgICAgICAgICAgIDwhLS0gL1lhbmRleC5NZXRyaWthIGNvdW50ZXIgLS0+XG4gICAgICAgICAgYFxuICAgICAgICAgICAgfX1cbiAgICAgICAgLz5cbiAgICAgICAgPC9IZWFkPlxuICAgICAgICA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XG4gICAgPC8+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBBcHA7XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
 
 /***/ }),
 
-/***/ "3iY6":
+/***/ "./stylesheets/global.css":
+/*!********************************!*\
+  !*** ./stylesheets/global.css ***!
+  \********************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
+eval("//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL3N0eWxlc2hlZXRzL2dsb2JhbC5jc3MuanMiLCJzb3VyY2VzQ29udGVudCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./stylesheets/global.css\n");
+
+/***/ }),
+
+/***/ "./stylesheets/nightOwl.css":
+/*!**********************************!*\
+  !*** ./stylesheets/nightOwl.css ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL3N0eWxlc2hlZXRzL25pZ2h0T3dsLmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./stylesheets/nightOwl.css\n");
+
+/***/ }),
+
+/***/ "./stylesheets/nprogress.css":
+/*!***********************************!*\
+  !*** ./stylesheets/nprogress.css ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL3N0eWxlc2hlZXRzL25wcm9ncmVzcy5jc3MuanMiLCJzb3VyY2VzQ29udGVudCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./stylesheets/nprogress.css\n");
+
+/***/ }),
+
+/***/ 0:
+/*!****************************************!*\
+  !*** multi private-next-pages/_app.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! private-next-pages/_app.js */"./pages/_app.js");
 
 
 /***/ }),
 
-/***/ "4Q3z":
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("next/router");
+eval("module.exports = require(\"next/head\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJuZXh0L2hlYWRcIj81ZWYyIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6Im5leHQvaGVhZC5qcyIsInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcIm5leHQvaGVhZFwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///next/head\n");
 
 /***/ }),
 
-/***/ "A1+9":
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("@caasy/sdk-js");
+eval("module.exports = require(\"next/router\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJuZXh0L3JvdXRlclwiP2Q4M2UiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoibmV4dC9yb3V0ZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJuZXh0L3JvdXRlclwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///next/router\n");
 
 /***/ }),
 
-/***/ "GvLQ":
+/***/ "nprogress":
+/*!****************************!*\
+  !*** external "nprogress" ***!
+  \****************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("nprogress");
+eval("module.exports = require(\"nprogress\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJucHJvZ3Jlc3NcIj8xNTViIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6Im5wcm9ncmVzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcIm5wcm9ncmVzc1wiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///nprogress\n");
 
 /***/ }),
 
-/***/ "QyJS":
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-/**
- * This files contains all the meta data of your blog. Feel
- * free to change it according to your needs. Please
- * keep in mind, that the actual blog posts are fetched
- * from the Caasy API. This file only contains static
- * information that does not change such as the name
- * of the blog.
- */
-module.exports = {
-  caasySDKConfig: {
-    siteId: '5f7cc20dc302c4fa0a961f81'
-  },
-  blogName: 'Rusanov',
-  defaultTitle: 'BLOG',
-  description: 'This is the blog of Dmitry Rusanov, a lawyer and programmer. I am writing articles about what interests me.',
-  // The default language is used to improve accessibility.
-  // It is set on the HTML element. You can change this
-  // to the main language of your content.
-  defaultLocale: 'ru',
-  // The locale is used for multi language content. This
-  // feature hasn't been released yet. Please don't change
-  // this until Caasy fully supports multi language content.
-  locales: ['ru', 'en-US'],
-  pagination: {
-    amountPostsOnPage: 10
-  },
-  social: {
-    github: 'https://github.com/Random1k11',
-    stackoverflow: 'https://stackoverflow.com/users/12097204/random1k11?tab=profile',
-    // dev: 'https://dev.to/jz222',
-    // twitter: 'https://twitter.com',
-    // linkedin: 'https://www.linkedin.com/in/timo-zimmermann',
-    youtube: 'https://www.youtube.com/channel/UCjl1oFkCqlAXjqqSD_1oVGw?view_as=subscriber' // facebook: 'https://facebook.com',
-    // instagram: 'https://instagram.com'
-
-  },
-  footer: {
-    links: [{
-      title: 'Website',
-      items: [{
-        label: 'Caasy',
-        url: 'https://caasy.io'
-      }]
-    }, {
-      title: 'Developer',
-      items: [{
-        label: 'Docs',
-        url: 'https://docs.caasy.io'
-      }, {
-        label: 'Github',
-        url: 'https://logowl.io'
-      }, {
-        label: 'JS SDK',
-        url: 'https://mosaic.mc'
-      }]
-    }, {
-      title: 'About',
-      items: [{
-        label: 'Mosaic',
-        url: 'https://mosaic.mc'
-      }, {
-        label: 'Log Owl',
-        url: 'https://logowl.io'
-      }]
-    }]
-  }
-};
-
-/***/ }),
-
-/***/ "TQWz":
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "cDcd":
-/***/ (function(module, exports) {
-
-module.exports = require("react");
-
-/***/ }),
-
-/***/ "iL3X":
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "sFTw":
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ "xnum":
-/***/ (function(module, exports) {
-
-module.exports = require("next/head");
+eval("module.exports = require(\"react\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJyZWFjdFwiPzU4OGUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoicmVhY3QuanMiLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJyZWFjdFwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///react\n");
 
 /***/ })
 

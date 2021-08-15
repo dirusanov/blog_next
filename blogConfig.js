@@ -7,9 +7,6 @@
  * of the blog.
  */
 module.exports = {
-    caasySDKConfig: {
-        siteId: '5f7cc20dc302c4fa0a961f81'
-    },
     blogName: 'Rusanov',
     defaultTitle: 'BLOG',
     description: 'This is the blog of Dmitry Rusanov, a lawyer and programmer. I am writing articles about what interests me.',
@@ -34,29 +31,4 @@ module.exports = {
         // facebook: 'https://facebook.com',
         // instagram: 'https://instagram.com'
     },
-    footer: {
-        links: [
-            {
-                title: 'Website',
-                items: [
-                    { label: 'Caasy', url: 'https://caasy.io' }
-                ]
-            },
-            {
-                title: 'Developer',
-                items: [
-                    { label: 'Docs', url: 'https://docs.caasy.io' },
-                    { label: 'Github', url: 'https://logowl.io' },
-                    { label: 'JS SDK', url: 'https://mosaic.mc' }
-                ]
-            },
-            {
-                title: 'About',
-                items: [
-                    { label: 'Mosaic', url: 'https://mosaic.mc' },
-                    { label: 'Log Owl', url: 'https://logowl.io' }
-                ]
-            }
-        ]
-    }
 }

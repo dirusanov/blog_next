@@ -6,7 +6,7 @@ import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter'
 
 import Main from '../components/layout/main/Main';
 import PostPreview from '../components/postPreview/PostPreview';
-import API_URL from "../utils/http-utils";
+import {API_URL} from "../utils/http-utils";
 import blogConfig from "../blogConfig";
 
 
