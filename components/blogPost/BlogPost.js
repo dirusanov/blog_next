@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown'
 import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter'
+import Head from "next/head"
 
 import Main from '../layout/main/Main';
 
@@ -22,30 +23,35 @@ const Post = ({ post }) => {
     }
 
     return (
-        <Main title={post.title}>
-            <div className={styling.header} hidden={!post.image}>
-                <img
-                    src={post.image || ''}
-                    className={styling.previewImageBackground}
-                    alt='preview image background'
-                />
-            </div>
-            <article className={styling.elements}>
-                <img
-                    src={post.image || ''}
-                    className={styling.previewImage}
-                    alt='preview image'
-                    hidden={!post.image}
-                />
-                <h1 align='center'>{post.title}</h1>
-                <div className='post-body'>
-                    <div className={styling.wrapper}>
-                        <ReactMarkdown renderers={renderers}>{post.text}</ReactMarkdown>
-                        <i className={styling.lastEdit}>Last edit: {new Date(post.updated_at).toDateString()}</i>
-                    </div>
+        <>
+            <Head>
+                <meta name="description" content={post.text.slice(0, 500)} />
+            </Head>
+            <Main title={post.title}>
+                <div className={styling.header} hidden={!post.image}>
+                    <img
+                        src={post.image || ''}
+                        className={styling.previewImageBackground}
+                        alt='preview image background'
+                    />
                 </div>
-            </article>
-        </Main>
+                <article className={styling.elements}>
+                    <img
+                        src={post.image || ''}
+                        className={styling.previewImage}
+                        alt='preview image'
+                        hidden={!post.image}
+                    />
+                    <h1 align='center'>{post.title}</h1>
+                    <div className='post-body'>
+                        <div className={styling.wrapper}>
+                            <ReactMarkdown renderers={renderers}>{post.text}</ReactMarkdown>
+                            <i className={styling.lastEdit}>Last edit: {new Date(post.updated_at).toDateString()}</i>
+                        </div>
+                    </div>
+                </article>
+            </Main>
+        </>
     );
 };
 

@@ -14,7 +14,6 @@ const Nav = () => (
     <nav className={styling.nav}>
         <div className={styling.container}>
             <Logo />
-
             <ul className={styling.menu}>
                 <li>
                     <Link href='/'>
