@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import NProgress from 'nprogress';
 import Router from 'next/router';
+import { YMInitializer } from "react-yandex-metrika";
 
 // Blog config
 import blogConfig from '../blogConfig';
@@ -33,40 +34,28 @@ const App = ({ Component, pageProps }) => (
         <Head>
             <title key='title'>{blogConfig.blogName || ''}</title>
             <meta key='description' name='description' content={blogConfig.description} />
-         <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
-         />
-         <script
-            dangerouslySetInnerHTML={{
-              __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${process.env.GA_TRACKING_ID}');
-          `
-            }}
-        />
-        <script
-            dangerouslySetInnerHTML={{
-              __html: `
-            <script type="text/javascript" >
-               (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-               m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-               (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-               ym(${process.env.YA_METRIKA_ID}, "init", {
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    ecommerce:"dataLayer"
-               });
-            </script>
-            <noscript><div><img src="https://mc.yandex.ru/watch/74360284" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-          `
-            }}
-        />
+            <script
+                async
+                src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
+            />
+            <script
+                dangerouslySetInnerHTML={{
+                  __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${process.env.GA_TRACKING_ID}');
+              `
+                }}
+            />
         </Head>
+        <YMInitializer accounts={[process.env.YA_METRIKA_ID]} options={{
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true,
+                }}
+        />
         <Component {...pageProps} />
     </>
 );
