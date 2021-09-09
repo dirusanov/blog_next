@@ -43,7 +43,7 @@ const Post = ({ post }) => {
                         hidden={!post.image}
                     />
                     <h1 align='center'>{post.title}</h1>
-                    <div className='post-body'>
+                    <div className={styling.post}>
                         <div className={styling.wrapper}>
                             <ReactMarkdown renderers={renderers}>{post.text}</ReactMarkdown>
                             <i className={styling.lastEdit}>Last edit: {new Date(post.updated_at).toDateString()}</i>

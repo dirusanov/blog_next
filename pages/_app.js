@@ -49,7 +49,7 @@ const App = ({ Component, pageProps }) => (
                 }}
             />
         </Head>
-        <YMInitializer accounts={[process.env.YA_METRIKA_ID]} options={{
+        <YMInitializer accounts={[74360284]} options={{
                 clickmap:true,
                 trackLinks:true,
                 accurateTrackBounce:true,

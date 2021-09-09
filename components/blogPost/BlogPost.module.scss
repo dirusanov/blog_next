@@ -56,12 +56,9 @@
     color: var(--color-2-dark);
 }
 
-.post-body {
-    background-color: red;
-}
-
-@media screen and (min-width: 768px) {
-    .wrapper {
-        width: 85%;
+.post {
+    p {
+        line-height: 1.75;
+        max-width: 800px;
     }
 }
