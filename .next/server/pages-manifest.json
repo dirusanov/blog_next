@@ -1,12 +1,6 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/about-me": "pages/about-me.js",
-  "/authors": "pages/authors.js",
-  "/": "pages/index.js",
-  "/post/[slug]": "pages/post/[slug].js",
-  "/sitemap.xml": "pages/sitemap.xml.js",
   "/_error": "pages/_error.js",
-  "/ru/404": "pages/ru/404.html",
-  "/en-US/404": "pages/en-US/404.html"
+  "/": "pages/index.js"
 }
