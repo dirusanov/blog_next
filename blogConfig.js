@@ -17,7 +17,7 @@ module.exports = {
     // The locale is used for multi language content. This
     // feature hasn't been released yet. Please don't change
     // this until Caasy fully supports multi language content.
-    locales: ['ru', 'en-US'],
+    locales: ['ru'],
     pagination: {
         amountPostsOnPage: 10
     },
