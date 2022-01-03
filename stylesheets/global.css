@@ -181,6 +181,7 @@ nav {
 
 img {
     border-style: none;
+    max-width: 800px;
 }
 
 iframe {
